@@ -1,0 +1,39 @@
+# use regexp syntax
+syntax: regexp
+.*/Thumbs\.db
+\.idea
+\.currentProject
+\.sass-cache
+_build
+preview\/current
+.*/scss-lint-report.xml
+projectFilesBackup
+
+# use glob syntax
+syntax: glob
+
+*.psd
+
+# movies
+*.mov
+*.avi
+*.mp4
+*.ogg
+*.ogv
+*.webm
+
+# audios
+*.mp3
+*.wav
+
+# documents
+*.xlc
+*.pdf
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+
+node_modules/
+
